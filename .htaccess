@@ -1,0 +1,3 @@
+RewriteEngine On # Turn on the rewriting engine
+RewriteRule ^layanan/?$ tampil.php [NC,L]
+RewriteRule ^employees/([0-9])/?$ tampil.php?kode=$1 [NC,L]
